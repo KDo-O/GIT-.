@@ -1,0 +1,38 @@
+/*@charset "gb2312";*/
+/**
+* ----------------------------------------------------------------------------
+* $hack :ie 6 _  \ ie7 *+ \  ie6,ie7 *  \  ie7,firefox !important ie9, \9
+*/
+/**
+ +------------------------------------------------------------------------------
+ * 开始网站样式重写
+ (每个浏览器都有对标签的初始化，
+ 就造成我们网站开发者开发的web程序，
+ 会在不同的网站上有不同的样式风格，
+ 这给用户带来了很不好的体验，
+ 这也是浏览器本身的原因造成的，
+ 这时候，我们不可能过多的去限制用户的自然选择，
+ 所以我们只能优化我们自身的代码，
+ 使得我们的web程序兼容性更好)
+ +------------------------------------------------------------------------------
+ */
+#tc{width:600px;/*宽度*/height:350px;/*高度*/background:#9933cc;/*背景颜色*/
+     box-shadow:10px 0px 15px #000;/*css3技术*/}
+#tc #title
+    {width：600px；height：48px；background:#ff9900; color:#fff;font-size:18px;/*控制文字大小*/
+     font-family:'微软雅黑';text-indent:45px;line-height:48px;/*左右、上下*/position:relative;/*悬浮定位（基于绝对定位）*/}
+#tc #title .close
+    {width:17px;height:18px;background:green; display:block;position:absolute;/*绝对定位*/
+      top:13px;right:10px;background:url{'images/图片名称'} 0px-18px；}
+#tc p
+    {font-size:14px;color:#666;font-family:'微软雅黑';border:1px solid red;padding:0px 40px;}
+#login
+    {width:310px;height:200px;background:red; margin:0px auto;/*水平居中*/}
+#login p
+    {border:1px solid green;padding:0px;font-size:16px;color:#000;font-family:'微软雅黑'}
+#login p input
+    {width:260px;height:38px;}
+#login p.but
+    {border:1px solid red;padding-left:35px;}
+#login p input.but
+    {width:263px;height:40px;background:url{'images/图片名'};border:0px}
